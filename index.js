@@ -3,7 +3,7 @@ const express = require('express');
 const userRoutes = require('./routes/userRoutes');
 const thoughtRoutes = require('./routes/thoughtRoutes');
 
-mongoose.connect('mongodb://localhost:27017/test', {
+mongoose.connect('mongodb://localhost:27017/social-network-api', {
     useNewUrlParser: true, useUnifiedTopology: true
 });
 
